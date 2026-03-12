@@ -33,7 +33,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Developed by:Abdul Kadher S
 RegisterNumber:212225230002/*
-```module de2(
+```
+module de2(
     input A, B, C, D,
     output F
 );
@@ -44,10 +45,13 @@ assign F = (~A & ~B & ~C & ~D) |
            (~A &  B &  C &  D) |   
            ( B & ~C &  D );      
 
-endmodule```
+endmodule
+```
 
 
 **RTL realization**
+
+
 <img width="811" height="555" alt="Screenshot 2026-03-12 103814" src="https://github.com/user-attachments/assets/c16cf170-9477-45f9-870c-d4f6ee0aa233" />
 
 
